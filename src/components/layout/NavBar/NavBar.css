@@ -1,0 +1,33 @@
+.navList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to right bottom, #33173e, #3d1f51, #462865, #4d317a, #523c91, #593f9d, #6143a9, #6946b5, #7a41b7, #8b39b7, #9c2fb6, #ac20b3);
+    font-size: 24px;
+    padding: 25px;
+    list-style: none;
+
+}
+.spanLogo{
+    color: #e9379f;
+}
+
+.spanCart{
+    font-size: 18px;
+    flex-direction: column;
+    display: flex;
+    align-items:end;
+    color:#fff;
+    border-radius: 40px;
+    text-align: center;
+    margin-inline: 15px;
+    }
+.navList{
+    cursor: pointer;
+}
+.lista:hover{
+    color: #e9379f;
+    text-decoration: underline;
+}
